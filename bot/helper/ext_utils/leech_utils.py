@@ -314,7 +314,7 @@ async def format_filename(file_, user_id, dirpath=None, isMirror=False):
             languages = lang,
             subtitles = subs,
             md5_hash = get_md5_hash(up_path)
-        ).replace('@SAM_DUB_LEZHa', ' ')
+        ).replace('@SAM_DUB_LEZHa -', ' ')
         if len(slit) > 1:
             for rep in range(1, len(slit)):
                 args = slit[rep].split(":")
